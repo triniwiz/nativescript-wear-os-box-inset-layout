@@ -1,6 +1,7 @@
 .vscode
 .idea
 .DS_Store
+**/package-lock.json
 *.esm.json
 *.js
 *.js.map
@@ -12,6 +13,10 @@ src/*.d.ts
 !seed-tests/*.js
 seed-tests/seed-copy/**/*.*
 seed-tests/seed-copy-new-git-repo/**/*.*
+demo/platforms/*
+demo/lib/*
+
+*.DS_Store
 !demo/karma.conf.js
 !demo/app/tests/*.js
 demo/*.d.ts
@@ -23,3 +28,4 @@ publish/src
 publish/package
 demo/report/report.html
 demo/report/stats.json
+!demo/webpack.config.js

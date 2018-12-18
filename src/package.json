@@ -1,8 +1,8 @@
 {
-	"name": "nativescript-wear-os-box-inset-layout-box-inset-layout",
+	"name": "nativescript-wear-os-box-inset-layout",
 	"version": "1.0.0",
 	"description": "NativeScript plugin for WearOS BoxInsetLayout ViewGroup for screen shape-aware layouts.",
-	"main": "wear",
+	"main": "index",
 	"typings": "index.d.ts",
 	"nativescript": {
 		"platforms": {
@@ -26,10 +26,11 @@
 		"clean": "cd ../demo && rimraf hooks node_modules platforms && cd ../src && rimraf node_modules",
 		"ci.tslint": "npm i && tslint '**/*.ts' --config '../tslint.json' --exclude '**/node_modules/**'",
 		"prepack": "npm run build.native",
+		"make-changelog": "cd ../ && github_changelog_generator -u bradmartin -p nativescript-wear-os-box-inset-layout",
 		"precommit": "lint-staged"
 	},
 	"lint-staged": {
-		"*.ts": [
+		"*.ts, *.js, *.css, *.scss, *.md": [
 			"prettier --write",
 			"git add"
 		]

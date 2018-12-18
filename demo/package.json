@@ -1,11 +1,14 @@
 {
 	"nativescript": {
-		"id": "org.nativescript.demo"
+		"id": "org.nativescript.demo",
+		"tns-android": {
+			"version": "5.1.0"
+		}
 	},
 	"dependencies": {
 		"nativescript-theme-core": "^1.0.4",
 		"nativescript-unit-test-runner": "^0.3.4",
-		"nativescript-boxinsetlayout": "../src",
+		"nativescript-wear-os-box-inset-layout": "../src",
 		"tns-core-modules": "^5.1.0"
 	},
 	"devDependencies": {

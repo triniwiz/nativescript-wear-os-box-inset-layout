@@ -1,5 +1,8 @@
 export declare class BoxInsetLayout {
-	// define your typings manually
-	// or..
-	// take the ios or android .d.ts files and copy/paste them here
+	nativeView: android.support.wear.widget.BoxInsetLayout;
+	private _androidViewId;
+	constructor();
+	nativeViewProtected: android.support.wear.widget.BoxInsetLayout;
+	createNativeView(): android.support.wear.widget.BoxInsetLayout;
+
 }
