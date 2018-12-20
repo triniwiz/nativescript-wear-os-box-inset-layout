@@ -1,11 +1,10 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" actionBarHidden="true" 
   xmlns:ui="nativescript-wear-os-box-inset-layout" backgroundColor="blue" borderColor="yellow">
 
-  <ui:BoxInsetLayout loaded="boxLoaded" borderColor="blue" borderWidth="1">
-    <StackLayout class="p-20" borderColor="blue" borderWidth="2" height="100%" width="100%">
+  <ui:BoxInsetLayout loaded="boxLoaded" borderColor="green" borderWidth="1">
+    <StackLayout borderColor="yellow" borderWidth="2" height="100%" width="100%">
       <Label text="Hello World" class="h3" textWrap="true"/>
       <Button text="Tap Me" tap="{{ onTap }}" />
-
     </StackLayout>
   </ui:BoxInsetLayout>
 
